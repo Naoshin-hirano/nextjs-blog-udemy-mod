@@ -40,6 +40,7 @@ function Layout({ children, home }) {
         )}
       </header>
       <main>{children}</main>
+      {/* もしホームでなければ */}
       {!home && (
         <div>
           <Link href="/">← ホームへ戻る</Link>
